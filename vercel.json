@@ -1,12 +1,7 @@
 {
   "name": "go-proxy-bingai",
   "version": 2,
-  "builds": [
-    {
-      "src": "/api/{index,web}.go",
-      "use": "@vercel/go"
-    }
-  ],
+  
   "routes": [
     {
       "src": "/web/.*",
